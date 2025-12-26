@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { ResponsivePie } from "@nivo/pie";
-import Header from "../../components/admin/Header";
-import { mockPieData } from "../../data/mockData";
+import Header from "../../../components/admin/Header";
+import { mockPieData } from "../../../data/mockData";
 
 const Pie = () => {
   return (

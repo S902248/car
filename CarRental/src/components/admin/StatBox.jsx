@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import ProgressCircle from "./ProgressCircle";
+import ProgressCircle from "../../components/admin/ProgressCircle";
 
 const StatBox = ({ title, subtitle, icon, progress, increase }) => {
   return (

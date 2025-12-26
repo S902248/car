@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { ResponsiveLine } from "@nivo/line";
-import Header from "../../components/admin/Header";
-import { mockLineData } from "../../data/mockData";
+import Header from "../../../components/admin/Header";
+import { mockLineData } from "../../../data/mockData.js";
 
 const Line = () => {
   return (

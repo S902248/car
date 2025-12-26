@@ -19,10 +19,10 @@ import Invoices from './pages/admin/Invoices';
 import Calendar from './pages/admin/Calendar';
 
 // CHART PAGES (Inside src/pages/admin/chart/)
-import Bar from './pages/admin/chart/Bar';
-import Geography from './pages/admin/chart/Geography';
-import Line from './pages/admin/chart/Line';
-import Pie from './pages/admin/chart/Pie';
+import Bar from './pages/admin/charts/Bar';
+import Geography from './pages/admin/charts/Geography';
+import Line from './pages/admin/charts/Line';
+import Pie from './pages/admin/charts/Pie';
 
 const App = () => {
   return (

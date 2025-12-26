@@ -1,7 +1,7 @@
 export const mockLineData = [
   {
     id: "Revenue",
-    color: "#dc2626", // Brand Red
+    color: "#dc2626",
     data: [
       { x: "Jan", y: 120 },
       { x: "Feb", y: 150 },
@@ -13,7 +13,7 @@ export const mockLineData = [
   },
   {
     id: "Expenses",
-    color: "#111827", // Brand Dark
+    color: "#111827",
     data: [
       { x: "Jan", y: 80 },
       { x: "Feb", y: 90 },
@@ -23,4 +23,12 @@ export const mockLineData = [
       { x: "Jun", y: 130 },
     ],
   },
+];
+
+// 👇 ADD THIS
+export const mockPieData = [
+  { id: "Sedan", label: "Sedan", value: 18 },
+  { id: "SUV", label: "SUV", value: 12 },
+  { id: "Hatchback", label: "Hatchback", value: 10 },
+  { id: "Luxury", label: "Luxury", value: 5 },
 ];

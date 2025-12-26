@@ -1,8 +1,8 @@
 import { Box, useTheme } from "@mui/material";
 import { ResponsiveChoropleth } from "@nivo/geo";
-import Header from "../../components/admin/Header";
-import { mockGeographyData } from "../../data/mockGeoData";
-import { geoFeatures } from "../../data/mockGeoFeatures";
+import Header from "../../../components/admin/Header";
+import { mockGeographyData } from "../../../data/mockGeoData.js";
+import { geoFeatures } from "../../../data/mockGeoFeatures.js";
 
 const Geography = () => {
   return (

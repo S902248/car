@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import { ResponsiveBar } from "@nivo/bar";
-import Header from "../../components/admin/Header";
+import Header from "../../../components/admin/Header";
 
 // Mock Data: Comparing car categories over the last 3 months
 const data = [
